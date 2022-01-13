@@ -1,0 +1,9 @@
+.walletCard {
+	margin: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.components {
+  padding-top: 100px;
+}

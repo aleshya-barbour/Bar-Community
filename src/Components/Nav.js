@@ -10,7 +10,7 @@ import {
 
 import About from './About'
 import Home from './Home'
-import Join from './Join';
+import Wallet from './Wallet';
 
 
 
@@ -39,8 +39,8 @@ export default class NavbarComp extends Component {
                                 
                                 <Nav.Link as={Link} to="/home">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/about">About</Nav.Link>
-                                <Nav.Link as={Link} to="/Join">Join</Nav.Link>
-                               
+                                <Nav.Link as={Link} to="/Wallet">Wallet</Nav.Link>
+                                <Nav.Link as={Link} to="/App">App</Nav.Link>
 
                             </Nav>
 
@@ -57,10 +57,11 @@ export default class NavbarComp extends Component {
                             <Home />
                         </Route>
 
-                        <Route path="/join">
-                            <Join />
+                        <Route path="/wallet">
+                            <Wallet />
                         </Route>
 
+                       
                         
                         
                     </Switch>
